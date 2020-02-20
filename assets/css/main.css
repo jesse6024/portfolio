@@ -1588,7 +1588,19 @@ input, select, textarea {
 				padding-left: 0;
 				margin-left: 0;
 			}
-
+  /* Top Nav Menu */
+        .top-nav{
+            
+        }
+        
+        .nav-anchors{
+         padding: 20px;
+        }
+        
+        .nav-ul{
+    display: flex;
+    justify-content: center;
+        }
 /* Actions */
 
 	ul.actions {
@@ -2469,6 +2481,8 @@ input, select, textarea {
 				height: 2em;
 				line-height: 2em;
 			}
+        
+      
 
 		/* Menu */
 
