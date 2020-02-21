@@ -1599,12 +1599,12 @@ input, select, textarea {
         }
         
         .nav-ul{
-    display: flex;
-    justify-content: center;
+        display: flex;
+        justify-content: center;
         }
-.hover a:hover{
-    color:white;
-}
+       .hover a:hover{
+        color:white;
+       }   
 /* Actions */
 
 	ul.actions {
