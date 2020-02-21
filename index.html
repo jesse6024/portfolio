@@ -6,13 +6,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/mobile-nav.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
         <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 	</head>
 	<body class="is-preload">
 <!-- Horizontal Centered Nav -->
-        <div class="top-nav">
+       <!-- <div class="top-nav">
         <ul class="nav-ul">
         <div class="hover">
         <a class="nav-anchors" href="#header">Top</a>
@@ -22,6 +23,39 @@
         <a class="nav-anchors" href="#contact">Contact</a>
         </div>    
         </ul>
+        </div> -->
+        <!-- Mobile Test Nav -->
+       <!-- <nav>
+    <ul class="menu">
+        
+        <li class="item"><a href="#">Home</a></li>
+        <li class="item"><a href="#">About</a></li>
+        <li class="item"><a href="#">Services</a></li>
+        <li class="item"><a href="#">Features</a></li>
+        <li class="item"><a href="#">Blog</a></li>
+        <li class="item"><a href="#">Contact</a>
+        </li>
+        <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+    </ul>
+</nav> -->
+<!-- Hamburger Nav -->  
+        
+<div class="header">
+  <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+  <label for="openSidebarMenu" class="sidebarIconToggle">
+    <div class="spinner diagonal part-1"></div>
+    <div class="spinner horizontal"></div>
+    <div class="spinner diagonal part-2"></div>
+  </label>
+  <div id="sidebarMenu">
+    <ul class="sidebarMenuInner">
+        <li><a class="nav-anchors" href="#header">Top</a></li>
+        <li><a class="nav-anchors" href="#banner">Welcome</a></li>
+        <li><a class="nav-anchors" href="#resume">Resume</a></li>
+        <li><a class="nav-anchors" href="#projects">Portfolio</a></li>
+        <li><a class="nav-anchors" href="#contact">Contact</a></li>
+    </ul>
+  </div>
         </div>
 		<!-- Header -->
 			<section id="header">
@@ -351,7 +385,7 @@
 			</ul>
 			<div class="copyright">
 				<ul class="menu">
-					<li>&copy; 2020 Jesse Garcia</li>
+					<li style="margin-left:35%; ">&copy; 2020 Jesse Garcia</li>
 				</ul>
 			</div>
 		</section>
@@ -364,6 +398,16 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+        <!--    <script>$(function() {
+    $(".toggle").on("click", function() {
+        if ($(".item").hasClass("active")) {
+            $(".item").removeClass("active");
+            $(this).find("a").html("<i class='fas fa-bars'></i>");
+        } else {
+            $(".item").addClass("active");
+            $(this).find("a").html("<i class='fas fa-times'></i>");
+        }
+    });
+});</script> -->
 	</body>
 </html>

@@ -1,11 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 @import url("fontawesome-all.min.css");
 
-/*
-	Overflow by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -484,6 +480,33 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 1680px) {
+                     /* Top Nav Menu */
+        .top-nav{
+            
+        }
+        
+        .nav-anchors {
+         padding: 20px;
+        
+        }
+        
+        .nav-ul{
+        display: flex;
+        justify-content: center;
+        }
+            
+       .hover a:hover{
+        color:white;
+       }  
+            a{
+        -moz-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
+		-webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
+		-ms-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
+		transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
+		color: #35b88f;
+		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
+		text-decoration: none;
+            }
 
 			.row {
 				display: flex;
@@ -729,6 +752,33 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1080px) {
+                     /* Top Nav Menu */
+        .top-nav{
+            
+        }
+        
+        .nav-anchors {
+         padding: 20px;
+        
+        }
+        
+        .nav-ul{
+        display: flex;
+        justify-content: center;
+        }
+            
+       .hover a:hover{
+        color:white;
+       }  
+            a{
+        -moz-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
+		-webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
+		-ms-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
+		transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
+		color: #35b88f;
+		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
+		text-decoration: none;
+            }
 
 			.row {
 				display: flex;
@@ -974,7 +1024,57 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 840px) {
-
+    /* Mobile menu */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.toggle {
+    order: 1;
+}
+.item.button {
+    order: 2;
+}
+.item {
+    width: 100%;
+    text-align: center;
+    order: 3;
+    display: none;
+}
+.item.active {
+    display: block;
+}
+            
+    /* Top Nav Menu */
+        .top-nav{
+            
+        }
+        
+        .nav-anchors {
+         padding: 20px;
+        
+        }
+        
+        .nav-ul{
+        display: flex;
+        justify-content: center;
+        }
+            
+       .hover a:hover{
+        color:white;
+       }  
+            a{
+        -moz-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
+		-webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
+		-ms-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
+		transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
+		color: #35b88f;
+		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
+		text-decoration: none;
+            }
+            
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1219,6 +1319,57 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+            
+            /* Mobile menu */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.toggle {
+    order: 1;
+}
+.item.button {
+    order: 2;
+}
+.item {
+    width: 100%;
+    text-align: center;
+    order: 3;
+    display: none;
+}
+.item.active {
+    display: block;
+}
+            
+             /* Top Nav Menu */
+        .top-nav{
+            
+        }
+        
+        .nav-anchors {
+         padding: 20px;
+        
+        }
+        
+        .nav-ul{
+        display: flex;
+        justify-content: center;
+        }
+            
+       .hover a:hover{
+        color:white;
+       }  
+            a{
+        -moz-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
+		-webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
+		-ms-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
+		transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
+		color: #35b88f;
+		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
+		text-decoration: none;
+            }
 
 			.row {
 				display: flex;
@@ -1604,7 +1755,31 @@ input, select, textarea {
         }
        .hover a:hover{
         color:white;
-       }   
+       }  
+
+ /* Mobile menu */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.toggle {
+    order: 1;
+}
+.item.button {
+    order: 2;
+}
+.item {
+    width: 100%;
+    text-align: center;
+    order: 3;
+    display: none;
+}
+.item.active {
+    display: block;
+}
+
 /* Actions */
 
 	ul.actions {
